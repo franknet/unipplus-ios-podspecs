@@ -4,6 +4,8 @@
 target 'UNIP Plus Example' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  
+  pod 'UPTheme', :path => '../'
 
   # Pods for UNIP Plus Example
 
