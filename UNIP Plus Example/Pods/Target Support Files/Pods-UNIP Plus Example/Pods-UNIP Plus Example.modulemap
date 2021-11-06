@@ -1,6 +1,0 @@
-framework module Pods_UNIP_Plus_Example {
-  umbrella header "Pods-UNIP Plus Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
