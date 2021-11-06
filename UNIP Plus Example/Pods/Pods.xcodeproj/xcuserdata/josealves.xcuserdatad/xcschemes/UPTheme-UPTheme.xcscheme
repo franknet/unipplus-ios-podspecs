@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "80B384C0DAA9CBC9FA8900048C4CDE78"
-               BuildableName = "UPTheme.framework"
-               BlueprintName = "UPTheme"
+               BlueprintIdentifier = "6E4636C5249CEB1EE2F62D691E6F1F68"
+               BuildableName = "UPTheme.bundle"
+               BlueprintName = "UPTheme-UPTheme"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

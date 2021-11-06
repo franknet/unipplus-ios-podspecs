@@ -6,68 +6,83 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		80B384C0DAA9CBC9FA8900048C4CDE78 /* UPTheme */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = AD51AF8A6D25AC114E2CCCFCE9A9099D /* Build configuration list for PBXAggregateTarget "UPTheme" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = UPTheme;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		17E54AB0D6A90900F9EB250C9CE0EE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4B9A54A0271FBB61C697B1E45A8F1BDC /* UPTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AEB4C4317948373E403EE660333B6 /* UPTheme-dummy.m */; };
+		52F05FEA98987D1D3AE64934FEBA26BD /* UPImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A1EFD1856EDF220C4D540110C8536 /* UPImages.xcassets */; };
+		53C2EE8E6736DC644F89A472FF234C9B /* UPTheme-UPTheme in Resources */ = {isa = PBXBuildFile; fileRef = E08E743AC9BD138CD3682F2E32D7BFF7 /* UPTheme-UPTheme */; };
 		6A7FF27DFD298590F74D1CE081A77AA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8C7B9267D2FEEBCB104049EE2D8CCA5E /* Pods-UNIP Plus Example Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5728C93CFFAFC08A733896EEE6B4E27 /* Pods-UNIP Plus Example Tests-dummy.m */; };
-		8E4148A28686FEF7FF471688DE2FC275 /* Pods-UNIP Plus Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE331A32C7C20117D259D42A0533080E /* Pods-UNIP Plus Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E179E0401ED1D9DBBF799407135939A4 /* Pods-UNIP Plus Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4593DD72177192E0AFDC10F011950513 /* Pods-UNIP Plus Example-dummy.m */; };
-		E6A042E83BD466BF969129843B217F34 /* Pods-UNIP Plus Example Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6974ECDB11F39FE61EFFBC2D8B82A4E9 /* Pods-UNIP Plus Example Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C7B9267D2FEEBCB104049EE2D8CCA5E /* Pods-UNIP Plus Example Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD4678F654B90794236071E9B00104 /* Pods-UNIP Plus Example Tests-dummy.m */; };
+		8E4148A28686FEF7FF471688DE2FC275 /* Pods-UNIP Plus Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 343F1528CDB2CE3F2F21277EE5126152 /* Pods-UNIP Plus Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD91DDDC2E4A62392CC1BE39E6EFB5A /* UPTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CCABA374A0FF2B9F299B5065EA444D /* UPTheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93A2A31B1A45151DD9746330E9AEB2D1 /* UPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13954DF25EC14C16EF70ECCAC6D6C85C /* UPColors.swift */; };
+		AEE12383BFCE38034C4641467969D37A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C7663301487772D050BCAA2142FA3471 /* UPImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A1EFD1856EDF220C4D540110C8536 /* UPImages.xcassets */; };
+		E179E0401ED1D9DBBF799407135939A4 /* Pods-UNIP Plus Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F848B9BB5369EFD0A4DAF187F5DCCF1 /* Pods-UNIP Plus Example-dummy.m */; };
+		E3B1A17AC7467998A11CAB7F2F343F81 /* UPImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD27269F84B509893D117D0132A356C0 /* UPImages.swift */; };
+		E6A042E83BD466BF969129843B217F34 /* Pods-UNIP Plus Example Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 951D2AB365F4E9A512A8AAB068737EA1 /* Pods-UNIP Plus Example Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		254A15A2A413E7B706AE03D33A44BFF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 592CBD8DE89A72F2493867207165CCD3;
-			remoteInfo = "Pods-UNIP Plus Example";
-		};
-		26E26C86C6D1EA7804DB8A30A7467C36 /* PBXContainerItemProxy */ = {
+		432FBEDE9A45DBA5747CF8AC32E38A03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 80B384C0DAA9CBC9FA8900048C4CDE78;
 			remoteInfo = UPTheme;
 		};
+		5C3E0CE5127E9C7243CA330C2356912D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592CBD8DE89A72F2493867207165CCD3;
+			remoteInfo = "Pods-UNIP Plus Example";
+		};
+		EC74C05A6A2EE8D85472F596613B80F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E4636C5249CEB1EE2F62D691E6F1F68;
+			remoteInfo = "UPTheme-UPTheme";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04C9B3DE4F3D32F227E04A20423A6974 /* Pods-UNIP Plus Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UNIP Plus Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0502A7C093FC7EDBF5B4F52EFB01A18B /* Pods-UNIP Plus Example Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UNIP Plus Example Tests"; path = Pods_UNIP_Plus_Example_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FED7E248D6F4EFAC3896AE46551BCCE /* Pods-UNIP Plus Example Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIP Plus Example Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B236DD877FD1BE30389F38636C507E0 /* UPTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UPTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		340C30D4A48281E6F9210EED9A132A38 /* Pods-UNIP Plus Example Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIP Plus Example Tests-Info.plist"; sourceTree = "<group>"; };
-		4593DD72177192E0AFDC10F011950513 /* Pods-UNIP Plus Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UNIP Plus Example-dummy.m"; sourceTree = "<group>"; };
-		481CC5F22F59ED6157CD8F376B094748 /* Pods-UNIP Plus Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIP Plus Example.debug.xcconfig"; sourceTree = "<group>"; };
+		13954DF25EC14C16EF70ECCAC6D6C85C /* UPColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPColors.swift; path = UPTheme/Classes/UPColors.swift; sourceTree = "<group>"; };
+		13BB5FDA0D2BD7B5CD1A098FA5445BDF /* UPTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPTheme.modulemap; sourceTree = "<group>"; };
+		14C8783B4344A923261C131BF218C1CB /* Pods-UNIP Plus Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIP Plus Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BFD4678F654B90794236071E9B00104 /* Pods-UNIP Plus Example Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UNIP Plus Example Tests-dummy.m"; sourceTree = "<group>"; };
+		29FA8A9138A29E1F7A63CA254D068339 /* UPTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPTheme.debug.xcconfig; sourceTree = "<group>"; };
+		2F21FD1A8A65B41C5B2F5E95CBB41622 /* Pods-UNIP Plus Example Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIP Plus Example Tests.release.xcconfig"; sourceTree = "<group>"; };
+		343F1528CDB2CE3F2F21277EE5126152 /* Pods-UNIP Plus Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UNIP Plus Example-umbrella.h"; sourceTree = "<group>"; };
+		37D7590C67BB0141FD8FCE86A939C766 /* Pods-UNIP Plus Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UNIP Plus Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EC81F05DE89FEAD5D66D07CF3846438 /* UPTheme */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPTheme; path = UPTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		430A528C18C47FF8C11BEE30324F5CEE /* UPTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPTheme-prefix.pch"; sourceTree = "<group>"; };
+		4F98CBA07EFBBB0722BD11FB24903D46 /* Pods-UNIP Plus Example Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UNIP Plus Example Tests.modulemap"; sourceTree = "<group>"; };
+		517684456117297E4B787B105AC13568 /* Pods-UNIP Plus Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UNIP Plus Example-frameworks.sh"; sourceTree = "<group>"; };
+		556AE294E2881F2F176F7CB97D2EFE06 /* ResourceBundle-UPTheme-UPTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UPTheme-UPTheme-Info.plist"; sourceTree = "<group>"; };
 		5D311B30B31566B3DE19ED20FCA1D20F /* Pods-UNIP Plus Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UNIP Plus Example"; path = Pods_UNIP_Plus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DC2AAC96542ED8B22BAA220D5C31E39 /* Pods-UNIP Plus Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIP Plus Example-Info.plist"; sourceTree = "<group>"; };
-		6974ECDB11F39FE61EFFBC2D8B82A4E9 /* Pods-UNIP Plus Example Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UNIP Plus Example Tests-umbrella.h"; sourceTree = "<group>"; };
-		69E87559CE9F83DAFB270387F53B0810 /* Pods-UNIP Plus Example Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIP Plus Example Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6CD824D27C418E4FFEDB37C2FDFE4E5F /* Pods-UNIP Plus Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UNIP Plus Example.modulemap"; sourceTree = "<group>"; };
-		6DF99F7E2942A1533160037F38B2D822 /* Pods-UNIP Plus Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIP Plus Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F848B9BB5369EFD0A4DAF187F5DCCF1 /* Pods-UNIP Plus Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UNIP Plus Example-dummy.m"; sourceTree = "<group>"; };
+		63344D918870E7A71105D4E954CC996E /* UPTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPTheme.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		83AA47EB58D208BAD12C265DB4A55651 /* Pods-UNIP Plus Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIP Plus Example.release.xcconfig"; sourceTree = "<group>"; };
-		8A6338317B953A458252C6FFBDDCF5FF /* Pods-UNIP Plus Example Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UNIP Plus Example Tests.modulemap"; sourceTree = "<group>"; };
+		7A6B6C6BDA2CCA6A9E7E7CE19297A274 /* Pods-UNIP Plus Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIP Plus Example-Info.plist"; sourceTree = "<group>"; };
+		7DBED3BE771C7770AFC51378A341D68C /* Pods-UNIP Plus Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UNIP Plus Example.modulemap"; sourceTree = "<group>"; };
+		834F5ADADD4D9BF4A3A5A8667FD6CCE8 /* Pods-UNIP Plus Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIP Plus Example.release.xcconfig"; sourceTree = "<group>"; };
+		951D2AB365F4E9A512A8AAB068737EA1 /* Pods-UNIP Plus Example Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UNIP Plus Example Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF5F8D54AEF1A9169519F603AFDBA585 /* UPTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPTheme.release.xcconfig; sourceTree = "<group>"; };
-		D18D01B8AC0B0FDA67CCBB121EC9B497 /* Pods-UNIP Plus Example Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UNIP Plus Example Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5D3402BA7E6ED7143DDBA77D1ADF85A /* UPTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPTheme.debug.xcconfig; sourceTree = "<group>"; };
-		E9A71B112DDB1F1493B0A3E41E96D4D8 /* Pods-UNIP Plus Example Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIP Plus Example Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5728C93CFFAFC08A733896EEE6B4E27 /* Pods-UNIP Plus Example Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UNIP Plus Example Tests-dummy.m"; sourceTree = "<group>"; };
-		FE331A32C7C20117D259D42A0533080E /* Pods-UNIP Plus Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UNIP Plus Example-umbrella.h"; sourceTree = "<group>"; };
+		A9E35D362E95E245454199BC4FB669F6 /* Pods-UNIP Plus Example Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIP Plus Example Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B17C3CBE061B89DD964862626D312E70 /* Pods-UNIP Plus Example Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIP Plus Example Tests-Info.plist"; sourceTree = "<group>"; };
+		C1408973785EBFF88731394E35CC1FDF /* Pods-UNIP Plus Example Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UNIP Plus Example Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C406364B4D6EF8DCBDFAD0DFABFFDDB0 /* UPTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UPTheme-Info.plist"; sourceTree = "<group>"; };
+		C6CCABA374A0FF2B9F299B5065EA444D /* UPTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPTheme-umbrella.h"; sourceTree = "<group>"; };
+		D454F764524CB66A8C7C8E08BF028F90 /* Pods-UNIP Plus Example Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UNIP Plus Example Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD27269F84B509893D117D0132A356C0 /* UPImages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPImages.swift; path = UPTheme/Classes/UPImages.swift; sourceTree = "<group>"; };
+		DD5A1EFD1856EDF220C4D540110C8536 /* UPImages.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = UPImages.xcassets; path = UPTheme/Assets/UPImages.xcassets; sourceTree = "<group>"; };
+		E08E743AC9BD138CD3682F2E32D7BFF7 /* UPTheme-UPTheme */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UPTheme-UPTheme"; path = UPTheme.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1712E5860C490CBA3E8F22CFD64C052 /* Pods-UNIP Plus Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UNIP Plus Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F48AEB4C4317948373E403EE660333B6 /* UPTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPTheme-dummy.m"; sourceTree = "<group>"; };
+		F742555D85E2E81D5E730D4DBB1A2C0B /* UPTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UPTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +91,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A7FF27DFD298590F74D1CE081A77AA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2685AB7F11F98D240E788EF9BA00E86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD79DDA69A8D2DE36B4162F1D6CAEC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE12383BFCE38034C4641467969D37A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,31 +120,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F82A9B1D364360F38A516016058D5BE /* Development Pods */ = {
+		4BE044B46FD9430BF246D8984A2EF292 /* Pods-UNIP Plus Example Tests */ = {
 			isa = PBXGroup;
 			children = (
-				73D06BA9BED84A180930DCC26CBFBCC1 /* UPTheme */,
+				4F98CBA07EFBBB0722BD11FB24903D46 /* Pods-UNIP Plus Example Tests.modulemap */,
+				C1408973785EBFF88731394E35CC1FDF /* Pods-UNIP Plus Example Tests-acknowledgements.markdown */,
+				D454F764524CB66A8C7C8E08BF028F90 /* Pods-UNIP Plus Example Tests-acknowledgements.plist */,
+				1BFD4678F654B90794236071E9B00104 /* Pods-UNIP Plus Example Tests-dummy.m */,
+				B17C3CBE061B89DD964862626D312E70 /* Pods-UNIP Plus Example Tests-Info.plist */,
+				951D2AB365F4E9A512A8AAB068737EA1 /* Pods-UNIP Plus Example Tests-umbrella.h */,
+				A9E35D362E95E245454199BC4FB669F6 /* Pods-UNIP Plus Example Tests.debug.xcconfig */,
+				2F21FD1A8A65B41C5B2F5E95CBB41622 /* Pods-UNIP Plus Example Tests.release.xcconfig */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		40F65E5D84F653C4F46F260D50585820 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E5D3402BA7E6ED7143DDBA77D1ADF85A /* UPTheme.debug.xcconfig */,
-				BF5F8D54AEF1A9169519F603AFDBA585 /* UPTheme.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "UNIP Plus Example/Pods/Target Support Files/UPTheme";
-			sourceTree = "<group>";
-		};
-		46F89C7EB589A61792282F2FFE2FCD45 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D311B30B31566B3DE19ED20FCA1D20F /* Pods-UNIP Plus Example */,
-				0502A7C093FC7EDBF5B4F52EFB01A18B /* Pods-UNIP Plus Example Tests */,
-			);
-			name = Products;
+			name = "Pods-UNIP Plus Example Tests";
+			path = "Target Support Files/Pods-UNIP Plus Example Tests";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -125,64 +144,71 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		708B622F778DB07405ED80ACC4CE3F5A /* Pod */ = {
+		78A7C472C636436872AE9515A36C542D /* UPTheme */ = {
 			isa = PBXGroup;
 			children = (
-				2B236DD877FD1BE30389F38636C507E0 /* UPTheme.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		73D06BA9BED84A180930DCC26CBFBCC1 /* UPTheme */ = {
-			isa = PBXGroup;
-			children = (
-				708B622F778DB07405ED80ACC4CE3F5A /* Pod */,
-				40F65E5D84F653C4F46F260D50585820 /* Support Files */,
+				13954DF25EC14C16EF70ECCAC6D6C85C /* UPColors.swift */,
+				DD27269F84B509893D117D0132A356C0 /* UPImages.swift */,
+				DD5A1EFD1856EDF220C4D540110C8536 /* UPImages.xcassets */,
+				E2B2B7C00746A4615DF1CBED191D2FF7 /* Pod */,
+				9E213D8872B1EE49EC0427457FB4388B /* Support Files */,
 			);
 			name = UPTheme;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC73CF70501C189C26BCD955C978C56A /* Pods-UNIP Plus Example Tests */ = {
+		9E213D8872B1EE49EC0427457FB4388B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8A6338317B953A458252C6FFBDDCF5FF /* Pods-UNIP Plus Example Tests.modulemap */,
-				D18D01B8AC0B0FDA67CCBB121EC9B497 /* Pods-UNIP Plus Example Tests-acknowledgements.markdown */,
-				E9A71B112DDB1F1493B0A3E41E96D4D8 /* Pods-UNIP Plus Example Tests-acknowledgements.plist */,
-				F5728C93CFFAFC08A733896EEE6B4E27 /* Pods-UNIP Plus Example Tests-dummy.m */,
-				340C30D4A48281E6F9210EED9A132A38 /* Pods-UNIP Plus Example Tests-Info.plist */,
-				6974ECDB11F39FE61EFFBC2D8B82A4E9 /* Pods-UNIP Plus Example Tests-umbrella.h */,
-				1FED7E248D6F4EFAC3896AE46551BCCE /* Pods-UNIP Plus Example Tests.debug.xcconfig */,
-				69E87559CE9F83DAFB270387F53B0810 /* Pods-UNIP Plus Example Tests.release.xcconfig */,
+				556AE294E2881F2F176F7CB97D2EFE06 /* ResourceBundle-UPTheme-UPTheme-Info.plist */,
+				13BB5FDA0D2BD7B5CD1A098FA5445BDF /* UPTheme.modulemap */,
+				F48AEB4C4317948373E403EE660333B6 /* UPTheme-dummy.m */,
+				C406364B4D6EF8DCBDFAD0DFABFFDDB0 /* UPTheme-Info.plist */,
+				430A528C18C47FF8C11BEE30324F5CEE /* UPTheme-prefix.pch */,
+				C6CCABA374A0FF2B9F299B5065EA444D /* UPTheme-umbrella.h */,
+				29FA8A9138A29E1F7A63CA254D068339 /* UPTheme.debug.xcconfig */,
+				63344D918870E7A71105D4E954CC996E /* UPTheme.release.xcconfig */,
 			);
-			name = "Pods-UNIP Plus Example Tests";
-			path = "Target Support Files/Pods-UNIP Plus Example Tests";
+			name = "Support Files";
+			path = "UNIP Plus Example/Pods/Target Support Files/UPTheme";
 			sourceTree = "<group>";
 		};
-		BDD8658DEB56812A53B947B38A76770E /* Pods-UNIP Plus Example */ = {
+		AD078AB8C5766692A76C84FB922D2235 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CD824D27C418E4FFEDB37C2FDFE4E5F /* Pods-UNIP Plus Example.modulemap */,
-				04C9B3DE4F3D32F227E04A20423A6974 /* Pods-UNIP Plus Example-acknowledgements.markdown */,
-				6DF99F7E2942A1533160037F38B2D822 /* Pods-UNIP Plus Example-acknowledgements.plist */,
-				4593DD72177192E0AFDC10F011950513 /* Pods-UNIP Plus Example-dummy.m */,
-				5DC2AAC96542ED8B22BAA220D5C31E39 /* Pods-UNIP Plus Example-Info.plist */,
-				FE331A32C7C20117D259D42A0533080E /* Pods-UNIP Plus Example-umbrella.h */,
-				481CC5F22F59ED6157CD8F376B094748 /* Pods-UNIP Plus Example.debug.xcconfig */,
-				83AA47EB58D208BAD12C265DB4A55651 /* Pods-UNIP Plus Example.release.xcconfig */,
+				E251318F875C7B74EB58341BE7D8CB47 /* Pods-UNIP Plus Example */,
+				4BE044B46FD9430BF246D8984A2EF292 /* Pods-UNIP Plus Example Tests */,
 			);
-			name = "Pods-UNIP Plus Example";
-			path = "Target Support Files/Pods-UNIP Plus Example";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB23255EBF73B61D6BB8F0AB560B9A31 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78A7C472C636436872AE9515A36C542D /* UPTheme */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BBC0F469210330FADAAF80B7171577C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D311B30B31566B3DE19ED20FCA1D20F /* Pods-UNIP Plus Example */,
+				0502A7C093FC7EDBF5B4F52EFB01A18B /* Pods-UNIP Plus Example Tests */,
+				3EC81F05DE89FEAD5D66D07CF3846438 /* UPTheme */,
+				E08E743AC9BD138CD3682F2E32D7BFF7 /* UPTheme-UPTheme */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0F82A9B1D364360F38A516016058D5BE /* Development Pods */,
+				BB23255EBF73B61D6BB8F0AB560B9A31 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				46F89C7EB589A61792282F2FFE2FCD45 /* Products */,
-				E175D85BD8D75E3567036385A0ED9717 /* Targets Support Files */,
+				BBC0F469210330FADAAF80B7171577C4 /* Products */,
+				AD078AB8C5766692A76C84FB922D2235 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,13 +220,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E175D85BD8D75E3567036385A0ED9717 /* Targets Support Files */ = {
+		E251318F875C7B74EB58341BE7D8CB47 /* Pods-UNIP Plus Example */ = {
 			isa = PBXGroup;
 			children = (
-				BDD8658DEB56812A53B947B38A76770E /* Pods-UNIP Plus Example */,
-				BC73CF70501C189C26BCD955C978C56A /* Pods-UNIP Plus Example Tests */,
+				7DBED3BE771C7770AFC51378A341D68C /* Pods-UNIP Plus Example.modulemap */,
+				37D7590C67BB0141FD8FCE86A939C766 /* Pods-UNIP Plus Example-acknowledgements.markdown */,
+				14C8783B4344A923261C131BF218C1CB /* Pods-UNIP Plus Example-acknowledgements.plist */,
+				5F848B9BB5369EFD0A4DAF187F5DCCF1 /* Pods-UNIP Plus Example-dummy.m */,
+				517684456117297E4B787B105AC13568 /* Pods-UNIP Plus Example-frameworks.sh */,
+				7A6B6C6BDA2CCA6A9E7E7CE19297A274 /* Pods-UNIP Plus Example-Info.plist */,
+				343F1528CDB2CE3F2F21277EE5126152 /* Pods-UNIP Plus Example-umbrella.h */,
+				F1712E5860C490CBA3E8F22CFD64C052 /* Pods-UNIP Plus Example.debug.xcconfig */,
+				834F5ADADD4D9BF4A3A5A8667FD6CCE8 /* Pods-UNIP Plus Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-UNIP Plus Example";
+			path = "Target Support Files/Pods-UNIP Plus Example";
+			sourceTree = "<group>";
+		};
+		E2B2B7C00746A4615DF1CBED191D2FF7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F742555D85E2E81D5E730D4DBB1A2C0B /* UPTheme.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +264,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B65F950E744653D88729498E608E82D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD91DDDC2E4A62392CC1BE39E6EFB5A /* UPTheme-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -237,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				03B0C189C686A97FB3367E8ACBBD5932 /* PBXTargetDependency */,
+				EA2A470935639A349333DA2326ED6FAB /* PBXTargetDependency */,
 			);
 			name = "Pods-UNIP Plus Example Tests";
 			productName = Pods_UNIP_Plus_Example_Tests;
@@ -256,11 +306,47 @@
 			buildRules = (
 			);
 			dependencies = (
-				55F6AFC29F02CD1490031756E2606A0B /* PBXTargetDependency */,
+				1E77825F61D9F1EB9E999B89C884E79D /* PBXTargetDependency */,
 			);
 			name = "Pods-UNIP Plus Example";
 			productName = Pods_UNIP_Plus_Example;
 			productReference = 5D311B30B31566B3DE19ED20FCA1D20F /* Pods-UNIP Plus Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E4636C5249CEB1EE2F62D691E6F1F68 /* UPTheme-UPTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DDA6397DB970B6C47D6ED21A73D39E /* Build configuration list for PBXNativeTarget "UPTheme-UPTheme" */;
+			buildPhases = (
+				632D875534FCCA9E150E4B421277E9D9 /* Sources */,
+				2685AB7F11F98D240E788EF9BA00E86A /* Frameworks */,
+				5D16750E94B8A71C82B76336FBDD2ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UPTheme-UPTheme";
+			productName = UPTheme;
+			productReference = E08E743AC9BD138CD3682F2E32D7BFF7 /* UPTheme-UPTheme */;
+			productType = "com.apple.product-type.bundle";
+		};
+		80B384C0DAA9CBC9FA8900048C4CDE78 /* UPTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E4EFE3B4A0F5250CF46B36F2AE7A6F /* Build configuration list for PBXNativeTarget "UPTheme" */;
+			buildPhases = (
+				8B65F950E744653D88729498E608E82D /* Headers */,
+				7C96EE0EF994919328C0506879F3944F /* Sources */,
+				BD79DDA69A8D2DE36B4162F1D6CAEC72 /* Frameworks */,
+				EFE87BD494A2A4E7385A99DB91BCE193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27988CF2130A07A6A4E87F400BABE234 /* PBXTargetDependency */,
+			);
+			name = UPTheme;
+			productName = UPTheme;
+			productReference = 3EC81F05DE89FEAD5D66D07CF3846438 /* UPTheme */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -281,13 +367,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 46F89C7EB589A61792282F2FFE2FCD45 /* Products */;
+			productRefGroup = BBC0F469210330FADAAF80B7171577C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				592CBD8DE89A72F2493867207165CCD3 /* Pods-UNIP Plus Example */,
 				2CD455B74B2BB932E4AEA85B9565A5BE /* Pods-UNIP Plus Example Tests */,
 				80B384C0DAA9CBC9FA8900048C4CDE78 /* UPTheme */,
+				6E4636C5249CEB1EE2F62D691E6F1F68 /* UPTheme-UPTheme */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +387,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5D16750E94B8A71C82B76336FBDD2ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7663301487772D050BCAA2142FA3471 /* UPImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B630D98B2F796A75EABF2589815CCAF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,14 +402,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFE87BD494A2A4E7385A99DB91BCE193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F05FEA98987D1D3AE64934FEBA26BD /* UPImages.xcassets in Resources */,
+				53C2EE8E6736DC644F89A472FF234C9B /* UPTheme-UPTheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		632D875534FCCA9E150E4B421277E9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C0A53A05798F676B7E8A44F3350F440 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8C7B9267D2FEEBCB104049EE2D8CCA5E /* Pods-UNIP Plus Example Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C96EE0EF994919328C0506879F3944F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A2A31B1A45151DD9746330E9AEB2D1 /* UPColors.swift in Sources */,
+				E3B1A17AC7467998A11CAB7F2F343F81 /* UPImages.swift in Sources */,
+				4B9A54A0271FBB61C697B1E45A8F1BDC /* UPTheme-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,24 +450,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03B0C189C686A97FB3367E8ACBBD5932 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-UNIP Plus Example";
-			target = 592CBD8DE89A72F2493867207165CCD3 /* Pods-UNIP Plus Example */;
-			targetProxy = 254A15A2A413E7B706AE03D33A44BFF2 /* PBXContainerItemProxy */;
-		};
-		55F6AFC29F02CD1490031756E2606A0B /* PBXTargetDependency */ = {
+		1E77825F61D9F1EB9E999B89C884E79D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UPTheme;
 			target = 80B384C0DAA9CBC9FA8900048C4CDE78 /* UPTheme */;
-			targetProxy = 26E26C86C6D1EA7804DB8A30A7467C36 /* PBXContainerItemProxy */;
+			targetProxy = 432FBEDE9A45DBA5747CF8AC32E38A03 /* PBXContainerItemProxy */;
+		};
+		27988CF2130A07A6A4E87F400BABE234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UPTheme-UPTheme";
+			target = 6E4636C5249CEB1EE2F62D691E6F1F68 /* UPTheme-UPTheme */;
+			targetProxy = EC74C05A6A2EE8D85472F596613B80F9 /* PBXContainerItemProxy */;
+		};
+		EA2A470935639A349333DA2326ED6FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UNIP Plus Example";
+			target = 592CBD8DE89A72F2493867207165CCD3 /* Pods-UNIP Plus Example */;
+			targetProxy = 5C3E0CE5127E9C7243CA330C2356912D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		148999E98B486F936DA632434E080BFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83AA47EB58D208BAD12C265DB4A55651 /* Pods-UNIP Plus Example.release.xcconfig */;
+			baseConfigurationReference = 834F5ADADD4D9BF4A3A5A8667FD6CCE8 /* Pods-UNIP Plus Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -384,7 +511,7 @@
 		};
 		1D09CBD4EC830DCC97B0D25CACD1263C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FED7E248D6F4EFAC3896AE46551BCCE /* Pods-UNIP Plus Example Tests.debug.xcconfig */;
+			baseConfigurationReference = A9E35D362E95E245454199BC4FB669F6 /* Pods-UNIP Plus Example Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -547,44 +674,77 @@
 			};
 			name = Release;
 		};
-		6812601E52B22414F2DEF5C7A8F889D2 /* Debug */ = {
+		76237B1FF87499D222BA9B6852E64B1C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5D3402BA7E6ED7143DDBA77D1ADF85A /* UPTheme.debug.xcconfig */;
+			baseConfigurationReference = 63344D918870E7A71105D4E954CC996E /* UPTheme.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UPTheme/UPTheme-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPTheme/UPTheme-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "Target Support Files/UPTheme/UPTheme.modulemap";
+				PRODUCT_MODULE_NAME = UPTheme;
+				PRODUCT_NAME = UPTheme;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D5CDFA0F03EF13C97F658AF76F78830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FA8A9138A29E1F7A63CA254D068339 /* UPTheme.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UPTheme";
+				IBSC_MODULE = UPTheme;
+				INFOPLIST_FILE = "Target Support Files/UPTheme/ResourceBundle-UPTheme-UPTheme-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = UPTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		73B0309C32C41E82B9C8D3E0E16ED9FC /* Release */ = {
+		B55F2A64A87A2C8B72D4A87B731E6E85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF5F8D54AEF1A9169519F603AFDBA585 /* UPTheme.release.xcconfig */;
+			baseConfigurationReference = 63344D918870E7A71105D4E954CC996E /* UPTheme.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UPTheme";
+				IBSC_MODULE = UPTheme;
+				INFOPLIST_FILE = "Target Support Files/UPTheme/ResourceBundle-UPTheme-UPTheme-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				PRODUCT_NAME = UPTheme;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 		CD10D161860DA7372BD163DF4174CEFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 481CC5F22F59ED6157CD8F376B094748 /* Pods-UNIP Plus Example.debug.xcconfig */;
+			baseConfigurationReference = F1712E5860C490CBA3E8F22CFD64C052 /* Pods-UNIP Plus Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -621,7 +781,7 @@
 		};
 		DAF58ED30FF8A694B700909CCA5CB616 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69E87559CE9F83DAFB270387F53B0810 /* Pods-UNIP Plus Example Tests.release.xcconfig */;
+			baseConfigurationReference = 2F21FD1A8A65B41C5B2F5E95CBB41622 /* Pods-UNIP Plus Example Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -657,9 +817,53 @@
 			};
 			name = Release;
 		};
+		DBC7BF8010A8497C171CE83BC585487F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FA8A9138A29E1F7A63CA254D068339 /* UPTheme.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UPTheme/UPTheme-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPTheme/UPTheme-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UPTheme/UPTheme.modulemap";
+				PRODUCT_MODULE_NAME = UPTheme;
+				PRODUCT_NAME = UPTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		40E4EFE3B4A0F5250CF46B36F2AE7A6F /* Build configuration list for PBXNativeTarget "UPTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC7BF8010A8497C171CE83BC585487F /* Debug */,
+				76237B1FF87499D222BA9B6852E64B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -678,20 +882,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD51AF8A6D25AC114E2CCCFCE9A9099D /* Build configuration list for PBXAggregateTarget "UPTheme" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6812601E52B22414F2DEF5C7A8F889D2 /* Debug */,
-				73B0309C32C41E82B9C8D3E0E16ED9FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E4BDCBC74F7B179D79526E3B90D2CE1D /* Build configuration list for PBXNativeTarget "Pods-UNIP Plus Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD10D161860DA7372BD163DF4174CEFB /* Debug */,
 				148999E98B486F936DA632434E080BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DDA6397DB970B6C47D6ED21A73D39E /* Build configuration list for PBXNativeTarget "UPTheme-UPTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5CDFA0F03EF13C97F658AF76F78830 /* Debug */,
+				B55F2A64A87A2C8B72D4A87B731E6E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

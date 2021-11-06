@@ -6,15 +6,14 @@
 //
 
 import UIKit
+import UPTheme
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var image: UIImageView?
+    @IBOutlet weak var image: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
     }
 
 

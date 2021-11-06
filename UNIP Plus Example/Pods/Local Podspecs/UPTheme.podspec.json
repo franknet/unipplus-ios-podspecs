@@ -4,7 +4,9 @@
   "summary": "UPTheme",
   "description": "Theme pod containing font, images, colors and styles",
   "homepage": "https://github.com/franknet/unipplus-ios-podspecs.git",
-  "license": "MIT",
+  "license": {
+    "type": "MIT"
+  },
   "authors": {
     "Jossé Franklin": "franklinsilvaalves@gmail.com"
   },
@@ -16,6 +18,12 @@
     "git": "https://github.com/franknet/unipplus-ios-podspecs.git",
     "tag": "uptheme-v0.1.0"
   },
-  "source_files": "UPCore/**/*",
+  "source_files": "UPTheme/Classes/**/*",
+  "resources": "UPTheme/Assets/*",
+  "resource_bundles": {
+    "UPTheme": [
+      "UPTheme/Assets/*"
+    ]
+  },
   "swift_version": "5.5"
 }

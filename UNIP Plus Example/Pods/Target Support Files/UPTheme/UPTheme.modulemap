@@ -1,0 +1,6 @@
+framework module UPTheme {
+  umbrella header "UPTheme-umbrella.h"
+
+  export *
+  module * { export * }
+}
