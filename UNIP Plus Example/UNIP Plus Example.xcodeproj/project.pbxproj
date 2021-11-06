@@ -10,12 +10,11 @@
 		407562707C1F43124F475CB1 /* Pods_UNIP_Plus_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2DF1FC4CAB535761DA1AF /* Pods_UNIP_Plus_Example.framework */; };
 		A481F51B8803E3FEF2FDB52E /* Pods_UNIP_Plus_Example_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7829E27C67577E224CD0434 /* Pods_UNIP_Plus_Example_Tests.framework */; };
 		E369A8432735E93100D90537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369A8422735E93100D90537 /* AppDelegate.swift */; };
-		E369A8452735E93100D90537 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369A8442735E93100D90537 /* SceneDelegate.swift */; };
 		E369A8472735E93100D90537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369A8462735E93100D90537 /* ViewController.swift */; };
-		E369A84A2735E93100D90537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E369A8482735E93100D90537 /* Main.storyboard */; };
 		E369A84C2735E93500D90537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E369A84B2735E93500D90537 /* Assets.xcassets */; };
 		E369A84F2735E93500D90537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E369A84D2735E93500D90537 /* LaunchScreen.storyboard */; };
 		E369A85D2735E97C00D90537 /* UNIP_Plus_Example_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369A85C2735E97C00D90537 /* UNIP_Plus_Example_Tests.swift */; };
+		E369A8762736112200D90537 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E369A8752736112200D90537 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +35,13 @@
 		C7829E27C67577E224CD0434 /* Pods_UNIP_Plus_Example_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UNIP_Plus_Example_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E369A83F2735E93100D90537 /* UNIP Plus Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UNIP Plus Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E369A8422735E93100D90537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E369A8442735E93100D90537 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E369A8462735E93100D90537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E369A8492735E93100D90537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E369A84B2735E93500D90537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E369A84E2735E93500D90537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E369A8502735E93500D90537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E369A85A2735E97C00D90537 /* UNIP Plus Example Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UNIP Plus Example Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E369A85C2735E97C00D90537 /* UNIP_Plus_Example_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNIP_Plus_Example_Tests.swift; sourceTree = "<group>"; };
+		E369A8752736112200D90537 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		E9533F22EB0CE12CC263DE73 /* Pods-UNIP Plus Example Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIP Plus Example Tests.release.xcconfig"; path = "Target Support Files/Pods-UNIP Plus Example Tests/Pods-UNIP Plus Example Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,9 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				E369A8422735E93100D90537 /* AppDelegate.swift */,
-				E369A8442735E93100D90537 /* SceneDelegate.swift */,
+				E369A8752736112200D90537 /* ViewController.xib */,
 				E369A8462735E93100D90537 /* ViewController.swift */,
-				E369A8482735E93100D90537 /* Main.storyboard */,
 				E369A84B2735E93500D90537 /* Assets.xcassets */,
 				E369A84D2735E93500D90537 /* LaunchScreen.storyboard */,
 				E369A8502735E93500D90537 /* Info.plist */,
@@ -214,7 +211,7 @@
 			files = (
 				E369A84F2735E93500D90537 /* LaunchScreen.storyboard in Resources */,
 				E369A84C2735E93500D90537 /* Assets.xcassets in Resources */,
-				E369A84A2735E93100D90537 /* Main.storyboard in Resources */,
+				E369A8762736112200D90537 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +278,6 @@
 			files = (
 				E369A8472735E93100D90537 /* ViewController.swift in Sources */,
 				E369A8432735E93100D90537 /* AppDelegate.swift in Sources */,
-				E369A8452735E93100D90537 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E369A8482735E93100D90537 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E369A8492735E93100D90537 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E369A84D2735E93500D90537 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -452,7 +440,6 @@
 				INFOPLIST_FILE = "UNIP Plus Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,7 +468,6 @@
 				INFOPLIST_FILE = "UNIP Plus Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
