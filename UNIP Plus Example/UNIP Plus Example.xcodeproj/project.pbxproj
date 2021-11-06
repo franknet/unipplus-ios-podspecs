@@ -15,6 +15,7 @@
 		E369A84F2735E93500D90537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E369A84D2735E93500D90537 /* LaunchScreen.storyboard */; };
 		E369A85D2735E97C00D90537 /* UNIP_Plus_Example_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369A85C2735E97C00D90537 /* UNIP_Plus_Example_Tests.swift */; };
 		E369A8762736112200D90537 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E369A8752736112200D90537 /* ViewController.xib */; };
+		E369A87A2736161F00D90537 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369A8792736161F00D90537 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		E369A85A2735E97C00D90537 /* UNIP Plus Example Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UNIP Plus Example Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E369A85C2735E97C00D90537 /* UNIP_Plus_Example_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNIP_Plus_Example_Tests.swift; sourceTree = "<group>"; };
 		E369A8752736112200D90537 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E369A8792736161F00D90537 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E9533F22EB0CE12CC263DE73 /* Pods-UNIP Plus Example Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNIP Plus Example Tests.release.xcconfig"; path = "Target Support Files/Pods-UNIP Plus Example Tests/Pods-UNIP Plus Example Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				E369A8422735E93100D90537 /* AppDelegate.swift */,
+				E369A8792736161F00D90537 /* AppCoordinator.swift */,
 				E369A8752736112200D90537 /* ViewController.xib */,
 				E369A8462735E93100D90537 /* ViewController.swift */,
 				E369A84B2735E93500D90537 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 				E369A83B2735E93100D90537 /* Sources */,
 				E369A83C2735E93100D90537 /* Frameworks */,
 				E369A83D2735E93100D90537 /* Resources */,
+				D029F3656F4803A04319D848 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +273,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D029F3656F4803A04319D848 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UNIP Plus Example/Pods-UNIP Plus Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UNIP Plus Example/Pods-UNIP Plus Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UNIP Plus Example/Pods-UNIP Plus Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -276,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E369A87A2736161F00D90537 /* AppCoordinator.swift in Sources */,
 				E369A8472735E93100D90537 /* ViewController.swift in Sources */,
 				E369A8432735E93100D90537 /* AppDelegate.swift in Sources */,
 			);

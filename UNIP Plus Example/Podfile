@@ -6,6 +6,7 @@ target 'UNIP Plus Example' do
   use_frameworks!
 
   # Pods for UNIP Plus Example
+  pod 'UPComponents', :path => '../'
 
   target 'UNIP Plus Example Tests' do
     inherit! :search_paths

@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: e1df15a9726dfb06abcd5b2b6a393f1addad29bc
+PODS:
+  - UPComponents (0.1.0)
+
+DEPENDENCIES:
+  - UPComponents (from `../`)
+
+EXTERNAL SOURCES:
+  UPComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UPComponents: 45bdefc079194c99abe9bea6991fe79144abfda6
+
+PODFILE CHECKSUM: 7cf2250e0ae10ed20557e4e8b2df018cfd54b873
 
 COCOAPODS: 1.11.2
