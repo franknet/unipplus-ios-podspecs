@@ -1,0 +1,6 @@
+framework module UPFeatures {
+  umbrella header "UPFeatures-umbrella.h"
+
+  export *
+  module * { export * }
+}

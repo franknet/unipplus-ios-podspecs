@@ -1,0 +1,16 @@
+PODS:
+  - UPFeatures (0.1.0)
+
+DEPENDENCIES:
+  - UPFeatures (from `../`)
+
+EXTERNAL SOURCES:
+  UPFeatures:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UPFeatures: eda8000040a28d8221c80d789fde4b15da5cfc55
+
+PODFILE CHECKSUM: 27a0bf60130358202c3af7336cfe06658d52e234
+
+COCOAPODS: 1.11.2
